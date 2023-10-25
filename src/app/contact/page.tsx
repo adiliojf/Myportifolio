@@ -4,7 +4,7 @@ import { Phone, Disc, Pocket, Mail, Home } from 'lucide-react'
 import { FormEvent, useRef, useState } from 'react'
 import emailjs from '@emailjs/browser'
 
-export function Contact() {
+export default function Contact() {
   const form = useRef<HTMLFormElement>(null)
   const [loading, setLoading] = useState(false)
   const [success, setSuccess] = useState(false)
