@@ -14,7 +14,7 @@ const baiJamjuree = BaiJamjuree({
 
 export const metadata = {
   title: 'Adilio Freitas',
-  description: 'Portifolio do Jeferson Fernandes',
+  description: 'Portfólio de Adilio Freitas',
 }
 
 export default function RootLayout({ children }: { children: ReactNode }) {
